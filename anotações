@@ -1,0 +1,51 @@
+"""
+***COMANDOS CMD***
+
+mudando diretório
+cd /d D:\ 
+
+voltar pasta
+cd ..
+
+ir pasta
+cd nome_pasta
+cd caminho\pasta
+
+criar uma virtual env
+>python -m venv env
+>env/Scripts/Activate
+
+
+
+***Pacotes***
+
+pip install xlrd
+pip install jupyter
+pip install selenium
+pip install requests
+pip install chatterbot
+pip install spacy
+
+
+-+-+--+-+---+-+-+-+-+-+-+-
+
+***CHATTER BOT***
+
+conda create --name chatbotpython python=3.6
+
+pip install selenium
+pip install requests
+pip install chatterbot
+pip install spacy
+
+Corrigir do bug do chatterbot, primeiro mude de versão python
+
+from spacy.cli import download
+
+download("en_core_web_sm")
+
+class ENGSM:
+    ISO_639_1 = 'en_core_web_sm'
+
+
+"""
